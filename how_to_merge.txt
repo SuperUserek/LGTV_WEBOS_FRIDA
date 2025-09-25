@@ -1,0 +1,8 @@
+Merge instructions:
+download all parts of frida first with wget
+
+cd /tmp
+cat frida-server.part* > frida-server
+chmod +x frida-server
+rm frida-server.part*
+./frida-server
